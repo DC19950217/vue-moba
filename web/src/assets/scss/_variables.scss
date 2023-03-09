@@ -1,0 +1,82 @@
+
+//colors
+$colors:(
+    "primary":#db9e3f,
+    "primary-1":#805300,
+    "info":#4b67af,
+    "info-1":#4394e4,
+    "blue":#1f3695,
+    "red":#791a16,
+    "white":#fff,
+    "light":#f9f9f9,
+    "light-1":#d4d9de,
+    "grey-1":#666,
+    "grey":#999,
+    "dark-1":#343440,
+    "dark-2":#333,
+    "dark-3":#464F73,
+    "dark-4":#33332c,
+    "dark":#212222,
+    "black":#000,
+);
+// border
+$border-color:map-get($colors,'light-1');
+// font size
+$base-font-size:1rem;
+$font-sizes: (
+  xs: 0.7692,
+  //10px
+    sm: 0.9231,
+  //12px
+    md: 1,
+  //13px
+    lg: 1.0769,
+  //14px
+    xl: 1.2308,
+  //16px,,,,
+);
+// 主轴（横轴）方向上的对齐方式
+$flex-jc:(
+    "start":flex-start,
+    "end":flex-end,
+    "center":center,
+    "stretch":stretch,
+    "baseline":baseline,
+    "between":space-between,
+    "around":space-around,
+);
+
+// 侧轴（纵轴）方向上的对齐方式
+$flex-ai:(
+    "start":flex-start,
+    "end":flex-end,
+    "center":center,
+    "between":space-between,
+    "around":space-around,
+);
+
+// 内边距和外边距
+// spacing
+// 0-5:0
+// .mt-1=> margin top .pb-2
+$spacing-types:(
+    m:margin,
+    p:padding,
+);
+// 边距方向
+$spacing-directions:(
+    t:top,
+    r:right,
+    b:bottom,
+    l:left,
+);
+// 边距大小
+$spacing-base-size:1rem;
+$spacing-sizes:(
+    0:0,
+    1:0.25,
+    2:0.5,
+    3:1,
+    4:1.5,
+    5:3,
+);
